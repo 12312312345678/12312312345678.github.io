@@ -1,11 +1,11 @@
 {
-    "name": "psalm_reminder",
-    "short_name": "reminder",
+    "name": "religous_lifetype_inventory",
+    "short_name": "religous_lifetype_inventory",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Psalms reminder",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
