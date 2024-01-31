@@ -1,3 +1,6 @@
+import 'dart:convert';
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:religous_lifetype_inventory/counts.dart';
@@ -14,10 +17,16 @@ class RLIResultPage extends StatefulWidget {
 }
 
 class _RLIResultPageState extends State<RLIResultPage> {
-  final double generalAAver = 7.26595744680851;
-  final double generalADiap = 8.136044744425611;
-  final double dogmaAver = 4.553191489361702;
-  final double dogmaDipa = 4.618687805907456;
+  final double generalAAver = 평균;
+  final double generalADiap = 표준편차;
+  final double dogmaAver = 평균;
+  final double dogmaDipa = 표준편차;
+  final List<List<double>> weights1 = [
+    ???
+  ];
+  final List<List<double>> weights2 = [
+    ???
+  ];
   @override
   Widget build(BuildContext context) {
     Map<String, List<bool>> answers = context.read<Answers2>().getSet;
@@ -37,7 +46,7 @@ class _RLIResultPageState extends State<RLIResultPage> {
     score = scoringProcedureRules(answers, score);
     String data = "";
     iter = score.keys.iterator;
-    ResultAdd2().addResult(context: context, results: score.toString());
+    ???().addResult(context: context, results: jsonEncode(score));
     while (iter.moveNext()) {
       String factor = iter.current;
       dynamic temp = score[iter.current];
@@ -47,6 +56,15 @@ class _RLIResultPageState extends State<RLIResultPage> {
     //General 먼저 계산
     double zScoreGeneral = (score["General"] - generalAAver) / generalADiap;
     double zScoreDogma = (score["DogmaStress"] - dogmaAver) / dogmaDipa;
+    List<double> type = calculate([
+      score["General"],
+      score["DogmaStress"],
+      score["Reactionaries"],
+      score["Atheismies"]
+    ]);
+    double v = (type[0] > type[1]) ? type[0] : type[1];
+    String s = (type[0] > type[1]) ? "비기독교 집단" : "기독교 집단";
+    final int tipus = (v * 100).ceil();
 
     return Scaffold(
       appBar: AppBar(title: const Text("결과")),
@@ -58,11 +76,25 @@ class _RLIResultPageState extends State<RLIResultPage> {
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text(data),
+            child: Text(
+                "신앙 피로도: ${(50 + zScoreGeneral * 10).ceil()}[${score["General"]}]점"),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text("요인 1과 2의 Z점수: [$zScoreGeneral,$zScoreDogma]"),
+            child: Text(
+                "교의 피로도 ${(50 + zScoreDogma * 10).ceil()}[${score["DogmaStress"]}]점"),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text("반현실주의 경향 [${score["Reactionaries"]}]문항"),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text("회의주의 경향 [${score["Atheismies"]}]문항"),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text("응답 패턴을 분석하면 $s에 해당될 확률이 $tipus만큼 가깝습니다."),
           ),
         ]),
       ),
@@ -185,6 +217,14 @@ class _RLIResultPageState extends State<RLIResultPage> {
     }
     score.addAll({"Paradoxial": temp});
     return score;
+  }
+
+  List<double> calculate(List<int> sample) {
+    ???
+  }
+
+  double tanH(double x) {
+    return (1 / (1 + exp(-x))); //
   }
 }
 

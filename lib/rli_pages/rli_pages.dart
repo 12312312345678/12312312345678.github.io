@@ -18,12 +18,11 @@ class _HomePageScreenState extends State<HomePageScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("d"),
+        title: const Text("RLI, Religious Lifetype Inventory testing"),
       ),
       body: Center(
         child: Column(
           children: [
-            const Text("AppVersion 1.0.0"),
             const Padding(
               padding: EdgeInsets.all(8.0),
               child: Text("신앙 특징 검사, RLI에 오신 것을 환영합니다."),
@@ -31,7 +30,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
             const Padding(
               padding: EdgeInsets.all(8.0),
               child: Text(
-                  "이 검사는 개신교 신자들 또는 개신교에 경험이 있는 사람들에게 특화되어 있습니다. 이 검사는 개신교에 대한 설문자의 인식을 수치화해 나타냅니다."),
+                  "이 검사는 개신교인과 개신교에 관해 경험이 있는 사람들에게 유용하며, 개신교에 대한 인식을 수치화하고 분석합니다."),
             ),
             const Padding(
               padding: EdgeInsets.all(8.0),
@@ -84,10 +83,11 @@ class _HomePageScreenState extends State<HomePageScreen> {
                   child: const Text("Start")),
             ),
             const Padding(
-              padding: EdgeInsets.all(8.0),
+              padding: EdgeInsets.all(16.0),
               child: Text(
-                  "자료 수집, 분석 패턴 연구, 응답 성향 연구를 위해서 닉네임과 검사 결과가 전송될 수 있습니다. 그 외의 개인정보에는 접근하지 않으니 안심하셔도 됩니다"),
+                  "이 페이지는 모바일 이용자를 기준으로 제작되었으므로 PC 이용자분들은 브라우저의 가로 길이를 적절하게 조절해 더욱 원활하게 검사에 참여하실 수 있습니다. 이 검사의 결과는 검사 결과의 패턴 분석을 위해 전송될 수 있으며 수집되는 정보는 검사 결과의 원점수와 답변 패턴입니다."),
             ),
+            const Text("AppVersion 2.0.1"),
           ],
         ),
       ),

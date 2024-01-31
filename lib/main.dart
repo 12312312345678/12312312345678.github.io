@@ -1,15 +1,3 @@
-import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-// ignore: unused_import
-import 'package:religous_lifetype_inventory/database_controller/firecontrol.dart';
-import 'package:religous_lifetype_inventory/firebase_options.dart';
-import 'package:religous_lifetype_inventory/rli_pages/rli_pages.dart';
-import 'package:religous_lifetype_inventory/rli_section/rli_vars.dart';
-import 'package:religous_lifetype_inventory/rli_section/rli_widget.dart';
-
-import 'counts.dart';
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
@@ -38,7 +26,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomePageScreen(),
+      home: const HomePageScreen(),
       /*home: const ResultsPage(),*/
     );
   }
@@ -63,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Column(
           children: <Widget>[
-            const Text("대충 검사 (apk version 0.1.0)"),
+            const Text("대충 검사 (apk version 1.2.0)"),
             ElevatedButton(
                 onPressed: () {
                   List<RLITile> inv = [];
