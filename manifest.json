@@ -1,6 +1,6 @@
 {
-    "name": "Clinical tool for Clinical Theology and Ministry",
-    "short_name": "RLI Surveyer",
+    "name": "RLI Surveyer",
+    "short_name": "Survey",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
