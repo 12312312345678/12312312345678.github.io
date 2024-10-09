@@ -55453,7 +55453,7 @@ q.toString
 p=k.a
 o=p.d
 n=k.d
-m=A.a1P(n?B.mY:B.Fe,null)
+m=A.a1P(n?B.mY:B.Ff,null)
 l=n?"Back":"More"
 l=A.b([new A.T6(m,new A.akQ(k),l,null)],t.E)
 B.b.P(l,k.a.c)
@@ -83532,7 +83532,7 @@ A.a7t.prototype={
 a_b(a){$.hr().n(0,this,a)}}
 A.qw.prototype={
 M(a){var s=A.auK(this.c.c)
-return A.ze(A.uV(null,B.TM),new A.cd(B.iX,A.atp(new A.a2j(this,s),s.a),null))},
+return A.ze(A.uV(null,B.TN),new A.cd(B.iX,A.atp(new A.a2j(this,s),s.a),null))},
 afK(a,b){var s,r,q=t.N,p=t.z,o=A.auL(A.an(["temp",a],q,p)).h(0,"temp").c,n=A.auL(A.an(["temp",a],q,p)).h(0,"temp").b
 q=A.fB(b,!0).c
 q.toString
@@ -83657,7 +83657,7 @@ else B.b.P(o,A.b([n.Er(a,A.b([5,4,3,2,1],p),A.b(["\ub9e4\uc6b0 \uadf8\ub807\ub2e
 o.push(B.ym)
 o.push(A.q9(B.TG,new A.abP(n),A.H9(q,q,B.JK,q,q,q,q,q,q,q,q,q,B.iY,q,q,q,q,q,q)))
 o.push(B.ym)
-o.push(A.q9(B.TO,new A.abQ(n),A.H9(q,q,q,q,q,q,q,q,q,q,q,q,B.iY,q,q,q,q,q,q)))
+o.push(A.q9(B.TP,new A.abQ(n),A.H9(q,q,q,q,q,q,q,q,q,q,q,q,B.iY,q,q,q,q,q,q)))
 return new A.cd(B.mw,A.l3(o,B.b6,B.aT,B.bw),q)},
 $S:485}
 A.abP.prototype={
@@ -83676,7 +83676,7 @@ A.W8.prototype={}
 A.xq.prototype={
 ao(){return new A.PR(new A.LY(B.yz,$.ao()),B.k)}}
 A.PR.prototype={
-M(a){var s=this,r=null,q="assets/lobby_test3.png",p=t.E,o=A.uV(A.b([A.I_(r,B.Fn,new A.ahB(a),r,r)],p),B.TP),n=A.at6(r,B.KW,r,r,r,r,r,r,!0,r,r,r,r,r,s.e,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,"\uc2dd\ubcc4\ucf54\ub4dc\ub97c \uc785\ub825\ud558\uc138\uc694",r,r,r,r,r,r,r,r,r,r,r,r,r),m=A.b([new A.wo(A.ke("[a-zA-Z0-9]",!0,!1),!0,"")],t.VS)
+M(a){var s=this,r=null,q="assets/lobby_test3.png",p=t.E,o=A.uV(A.b([A.I_(r,B.Fn,new A.ahB(a),r,r)],p),B.TM),n=A.at6(r,B.KW,r,r,r,r,r,r,!0,r,r,r,r,r,s.e,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,"\uc2dd\ubcc4\ucf54\ub4dc\ub97c \uc785\ub825\ud558\uc138\uc694",r,r,r,r,r,r,r,r,r,r,r,r,r),m=A.b([new A.wo(A.ke("[a-zA-Z0-9]",!0,!1),!0,"")],t.VS)
 return A.ze(o,A.auM(A.l3(A.b([new A.cd(B.iX,new A.Ae(s.d,n,B.Pr,B.Ob,B.Oc,m,!0,r),r),s.wZ("assets/lobby_test1.png","RLI \uc885\uad50 \uc2a4\ud2b8\ub808\uc2a4 \uac80\uc0ac","125\ubb38\ud56d\uc73c\ub85c \uad6c\uc131\ub418\uc5b4 \uc788\uc73c\uba70 \ubb34\uc2e0\ub860 \uc9c0\ud5a5\uc131, \uadfc\ubcf8\uc8fc\uc758 \uc9c0\ud5a5\uc131 \ub4f1\uc744 \uce21\uc815\ud569\ub2c8\ub2e4.",new A.ahC(s,a)),s.wZ("assets/lobby_test2.png","LRLI \uccad\uc18c\ub144 \ud14c\uc2a4\ud2b8","\uccad\uc18c\ub144\uae30 \ud559\uc0dd\ub4e4\uc5d0\uac8c \uc801\ud569\ud55c RLI\uc720\ud615 \ud14c\uc2a4\ud2b8\uc785\ub2c8\ub2e4.",new A.ahD(s,a)),s.wZ(q,"\uc885\ud569 \uc2a4\ud2b8\ub808\uc2a4 \uc2ec\uce35 \ubd84\uc11d \ud14c\uc2a4\ud2b8","\uc885\ud569 \uc2a4\ud2b8\ub808\uc2a4 \uc601\uc5ed\uc744 \ub354 \uc2ec\uce35\uc73c\ub85c \ubd84\uc11d\ud558\ub294 \uc601\uc5ed\uc785\ub2c8\ub2e4.",new A.ahE(s,a)),s.wZ(q,"\uad50\ub9ac \uc2a4\ud2b8\ub808\uc2a4 \uc2ec\uce35 \ubd84\uc11d \ud14c\uc2a4\ud2b8","\uad50\ub9ac \uc2a4\ud2b8\ub808\uc2a4 \uc601\uc5ed\uc744 \ub354 \uc2ec\uce35\uc73c\ub85c \ubd84\uc11d\ud558\ub294 \uc601\uc5ed\uc785\ub2c8\ub2e4.",new A.ahF(s,a))],p),B.b6,B.aT,B.bw)))},
 wZ(a,b,c,d){var s=null,r=t.E
 return A.arx(A.I7(!1,!0,new A.cd(B.iZ,A.KO(A.b([new A.wV(A.aGe(s,s,new A.uZ(a,s,s)),100,100,B.zS,s),B.O8,A.a_B(A.l3(A.b([A.cR(b,s,s,s,B.Rs,s,s),B.O9,A.cR(c,s,s,s,s,s,s)],r),B.iJ,B.aT,B.bw))],r),B.b6,B.aT,B.bw),s),s,!0,s,s,s,s,s,s,s,s,s,d,s,s,s,s),B.iZ)}}
@@ -83850,7 +83850,7 @@ A.Il.prototype={
 gt3(){return this.a},
 gtW(){return this.c}}
 A.qI.prototype={
-M(a){return A.ze(A.uV(null,B.TN),A.asT(new A.a35(),A.Vi(),t.XX))}}
+M(a){return A.ze(A.uV(null,B.TO),A.asT(new A.a35(),A.Vi(),t.XX))}}
 A.a35.prototype={
 $2(a,b){var s=null,r=b.b
 if(r!=null)return A.atp(new A.a34(r),J.co(r))
@@ -83888,7 +83888,7 @@ aaY(){this.al(new A.aiz(this))},
 a78(){this.al(new A.aiw(this))},
 a8J(){this.al(new A.aix(this))},
 aap(){this.al(new A.aiy(this))},
-M(a){var s=this,r=null,q=A.uV(A.b([A.I_(r,A.a1P(s.r?B.Fh:B.Fi,r),s.gaaX(),r,r),A.I_(r,A.a1P(B.Fg,r),s.gaao(),r,r)],t.E),B.TH),p=s.d
+M(a){var s=this,r=null,q=A.uV(A.b([A.I_(r,A.a1P(s.r?B.Fi:B.Fj,r),s.gaaX(),r,r),A.I_(r,A.a1P(B.Fh,r),s.gaao(),r,r)],t.E),B.TH),p=s.d
 p===$&&A.a()
 return A.ze(q,A.asT(new A.aiA(s),p,t.XX))}}
 A.aiB.prototype={
@@ -87198,17 +87198,17 @@ B.Xd=new A.a1Q(0,"start")
 B.Fd=new A.lk(null)
 B.mY=new A.fp(57490,!0)
 B.mZ=new A.fp(58332,!1)
-B.Fe=new A.fp(58372,!1)
-B.Fg=new A.fp(58785,!1)
-B.Fh=new A.fp(59069,!1)
-B.Fi=new A.fp(59070,!1)
+B.Ff=new A.fp(58372,!1)
+B.Fh=new A.fp(58785,!1)
+B.Fi=new A.fp(59069,!1)
+B.Fj=new A.fp(59070,!1)
 B.Fk=new A.cx(null,null,null,null,null,B.j,null,null,null)
 B.Fl=new A.cx(null,null,null,null,null,B.n,null,null,null)
 B.n_=new A.cx(24,0,400,0,48,B.n,1,null,!1)
-B.Ff=new A.fp(58727,!1)
-B.Fm=new A.qo(B.Ff,null,null)
-B.Fj=new A.fp(59083,!1)
-B.Fn=new A.qo(B.Fj,null,null)
+B.Fg=new A.fp(58727,!1)
+B.Fm=new A.qo(B.Fg,null,null)
+B.Fe=new A.fp(58172,!1)
+B.Fn=new A.qo(B.Fe,null,null)
 B.Fu=new A.qt(0,"repeat")
 B.Fv=new A.qt(1,"repeatX")
 B.Fw=new A.qt(2,"repeatY")
@@ -89285,10 +89285,10 @@ B.TI=new A.e1("\ud034\uc988 \uc2dc\uc791",null,null,null,null,null,null,null,nul
 B.TJ=new A.e1("\ubaa8\ub4e0 \ubb38\ud56d \ubcf4\uae30",null,null,null,null,null,null,null,null)
 B.TK=new A.e1("\ub2eb\uae30",null,null,null,null,null,null,null,null)
 B.TL=new A.e1("\uc131\uacbd \ud034\uc988 \uc571",null,null,null,null,null,null,null,null)
-B.TM=new A.e1("Instant Result",null,null,null,null,null,null,null,null)
-B.TN=new A.e1("\ubaa8\ub4e0 \ubb38\ud56d",null,null,null,null,null,null,null,null)
-B.TO=new A.e1("\uc774\uc804 \ubb38\ud56d\uc73c\ub85c",null,null,null,null,null,null,null,null)
-B.TP=new A.e1("\uae30\ub3c5\uad50 \uc2ec\ub9ac \uac80\uc0ac",null,null,null,null,null,null,null,null)
+B.TM=new A.e1("\uae30\ub3c5\uad50 \uc2ec\ub9ac \uac80\uc0ac v 0.3.0",null,null,null,null,null,null,null,null)
+B.TN=new A.e1("Instant Result",null,null,null,null,null,null,null,null)
+B.TO=new A.e1("\ubaa8\ub4e0 \ubb38\ud56d",null,null,null,null,null,null,null,null)
+B.TP=new A.e1("\uc774\uc804 \ubb38\ud56d\uc73c\ub85c",null,null,null,null,null,null,null,null)
 B.TQ=new A.e1("\ucd94\uc815",null,null,null,null,null,null,null,null)
 B.Xk=new A.acV(0,"system")
 B.KB=new A.h(0.05,0)
