@@ -1,11 +1,11 @@
 {
-    "name": "religous_lifetype_inventory",
-    "short_name": "religous_lifetype_inventory",
+    "name": "RLI Surveyer",
+    "short_name": "Survey",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "A tool for survey to collect samples on clinical applications and research in clinical theology, ministrical care",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
