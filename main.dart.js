@@ -26034,7 +26034,8 @@ _.d=a
 _.a=_.e=null
 _.b=b
 _.c=null},
-ahB:function ahB(a){this.a=a},
+ahB:function ahB(a,b){this.a=a
+this.b=b},
 ahA:function ahA(){},
 ahC:function ahC(a,b){this.a=a
 this.b=b},
@@ -26128,7 +26129,7 @@ Cx:function Cx(a,b){var _=this
 _.d=$
 _.e=a
 _.f=0
-_.r=!0
+_.r=!1
 _.a=null
 _.b=b
 _.c=null},
@@ -83676,13 +83677,14 @@ A.W8.prototype={}
 A.xq.prototype={
 ao(){return new A.PR(new A.LY(B.yz,$.ao()),B.k)}}
 A.PR.prototype={
-M(a){var s=this,r=null,q="assets/lobby_test3.png",p=t.E,o=A.uV(A.b([A.I_(r,B.Fn,new A.ahB(a),r,r)],p),B.TM),n=A.at6(r,B.KW,r,r,r,r,r,r,!0,r,r,r,r,r,s.e,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,"\uc2dd\ubcc4\ucf54\ub4dc\ub97c \uc785\ub825\ud558\uc138\uc694",r,r,r,r,r,r,r,r,r,r,r,r,r),m=A.b([new A.wo(A.ke("[a-zA-Z0-9]",!0,!1),!0,"")],t.VS)
+M(a){var s=this,r=null,q="assets/lobby_test3.png",p=t.E,o=A.uV(A.b([A.I_(r,B.Fn,new A.ahB(s,a),r,r)],p),B.TM),n=A.at6(r,B.KW,r,r,r,r,r,r,!0,r,r,r,r,r,s.e,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,"\uc2dd\ubcc4\ucf54\ub4dc\ub97c \uc785\ub825\ud558\uc138\uc694",r,r,r,r,r,r,r,r,r,r,r,r,r),m=A.b([new A.wo(A.ke("[a-zA-Z0-9]",!0,!1),!0,"")],t.VS)
 return A.ze(o,A.auM(A.l3(A.b([new A.cd(B.iX,new A.Ae(s.d,n,B.Pr,B.Ob,B.Oc,m,!0,r),r),s.wZ("assets/lobby_test1.png","RLI \uc885\uad50 \uc2a4\ud2b8\ub808\uc2a4 \uac80\uc0ac","125\ubb38\ud56d\uc73c\ub85c \uad6c\uc131\ub418\uc5b4 \uc788\uc73c\uba70 \ubb34\uc2e0\ub860 \uc9c0\ud5a5\uc131, \uadfc\ubcf8\uc8fc\uc758 \uc9c0\ud5a5\uc131 \ub4f1\uc744 \uce21\uc815\ud569\ub2c8\ub2e4.",new A.ahC(s,a)),s.wZ("assets/lobby_test2.png","LRLI \uccad\uc18c\ub144 \ud14c\uc2a4\ud2b8","\uccad\uc18c\ub144\uae30 \ud559\uc0dd\ub4e4\uc5d0\uac8c \uc801\ud569\ud55c RLI\uc720\ud615 \ud14c\uc2a4\ud2b8\uc785\ub2c8\ub2e4.",new A.ahD(s,a)),s.wZ(q,"\uc885\ud569 \uc2a4\ud2b8\ub808\uc2a4 \uc2ec\uce35 \ubd84\uc11d \ud14c\uc2a4\ud2b8","\uc885\ud569 \uc2a4\ud2b8\ub808\uc2a4 \uc601\uc5ed\uc744 \ub354 \uc2ec\uce35\uc73c\ub85c \ubd84\uc11d\ud558\ub294 \uc601\uc5ed\uc785\ub2c8\ub2e4.",new A.ahE(s,a)),s.wZ(q,"\uad50\ub9ac \uc2a4\ud2b8\ub808\uc2a4 \uc2ec\uce35 \ubd84\uc11d \ud14c\uc2a4\ud2b8","\uad50\ub9ac \uc2a4\ud2b8\ub808\uc2a4 \uc601\uc5ed\uc744 \ub354 \uc2ec\uce35\uc73c\ub85c \ubd84\uc11d\ud558\ub294 \uc601\uc5ed\uc785\ub2c8\ub2e4.",new A.ahF(s,a))],p),B.b6,B.aT,B.bw)))},
 wZ(a,b,c,d){var s=null,r=t.E
 return A.arx(A.I7(!1,!0,new A.cd(B.iZ,A.KO(A.b([new A.wV(A.aGe(s,s,new A.uZ(a,s,s)),100,100,B.zS,s),B.O8,A.a_B(A.l3(A.b([A.cR(b,s,s,s,B.Rs,s,s),B.O9,A.cR(c,s,s,s,s,s,s)],r),B.iJ,B.aT,B.bw))],r),B.b6,B.aT,B.bw),s),s,!0,s,s,s,s,s,s,s,s,s,d,s,s,s,s),B.iZ)}}
 A.ahB.prototype={
-$0(){var s=A.lD(new A.ahA(),null,t.z)
-A.fB(this.a,!1).hE(s)},
+$0(){if(this.a.d.a.a!=="quiz")return
+var s=A.lD(new A.ahA(),null,t.z)
+A.fB(this.b,!1).hE(s)},
 $S:0}
 A.ahA.prototype={
 $1(a){return new A.qn(null)},
@@ -83902,18 +83904,18 @@ $S:0}
 A.aiw.prototype={
 $0(){var s=this.a
 if(s.f<J.co(s.e)-1){++s.f
-s.r=!0}},
+s.r=!1}},
 $S:0}
 A.aix.prototype={
 $0(){var s=this.a,r=s.f
 if(r>0){s.f=r-1
-s.r=!0}},
+s.r=!1}},
 $S:0}
 A.aiy.prototype={
 $0(){var s=this.a
 J.ar8(s.e)
 s.f=0
-s.r=!0},
+s.r=!1},
 $S:0}
 A.aiA.prototype={
 $2(a,b){var s,r,q,p,o,n,m,l,k=null
